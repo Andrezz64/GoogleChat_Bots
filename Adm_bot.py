@@ -12,7 +12,7 @@ def AdmBot():
     control = 0
     newLista = []
  # Faz Um get na API do bimer (Filtrada pelo segurança TI )    
-    urlToSendAdmin = 'https://chat.googleapis.com/v1/spaces/AAAAkxgVmrE/messages?key=AIzaSyDdI0hCZtE6vySjMm-WEfRq3CPzqKqqsHI&token=9oJlzGWKxgckVy7A5E_FiAJ3PGd6M67foRamIz93b_A%3D'
+    urlToSendAdmin = 'https://chat.googleapis.com/v1/spaces/AAAAGEt323s/messages?key=AIzaSyDdI0hCZtE6vySjMm-WEfRq3CPzqKqqsHI&token=XtI67uXzLUPvetdPFjOOLtHsE28JJTC8B_UhNk3b95Q%3D'
     url = "https://segurancainfra.alterdata.matriz/api/"
 
     querystring = {"user":"infra","user_cookie":"uiui"}

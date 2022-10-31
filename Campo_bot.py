@@ -3,6 +3,7 @@ from common.Send import send, Error
 import urllib3
 import time 
 def CampoBot():
+    
     time.sleep(15)
     urllib3.disable_warnings()
     control = 0

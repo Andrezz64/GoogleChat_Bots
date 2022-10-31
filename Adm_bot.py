@@ -4,6 +4,7 @@ import urllib3
 import time
 
 def AdmBot():
+    
     time.sleep(15)
     urllib3.disable_warnings() # Desabilita Warnings por falta de ssl
 # Inicialização de algumas variáveis
@@ -32,7 +33,7 @@ def AdmBot():
         lista.append(idnumber) # faz a primeira validação, retirando os IDs dos atendimentos repetidos
         newLista = set(lista)
     couter = len(newLista) # conta o numero real de atendimentos na requisição
-    print(couter)
+    
     for atendimento in dados:
         newJson.append(atendimento) # faz um novo Json com a quantidade de Atendimentos corrigidos, e as mesmas informações
         control+=1
